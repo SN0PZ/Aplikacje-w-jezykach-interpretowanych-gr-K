@@ -1,1 +1,1 @@
-# Aplikacje-w-j-zykach-interpretowanych-gr-K
+# Aplikacje-w-jezykach-interpretowanych-gr-K
