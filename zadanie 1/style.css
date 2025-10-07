@@ -1,0 +1,49 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+    height: 100%;
+    background: #8ec5ff;
+}
+
+.kadlub {
+    position: absolute;
+    bottom: clamp(8px, 1vw, 16px);
+    left: 8%;
+    width: 68%;
+    height: 22%;
+    background: #8b4a2b;
+    border-radius: 0 0 28px 28px;
+}
+
+.poklad {
+    position: absolute;
+    bottom: calc(clamp(8px, 1vw, 16px) + 18%);
+    left: 12%;
+    width: 60%;
+    height: 6%;
+    background: #c9c9c9;
+    border-radius: 6px;
+}
+
+.kabina {
+    position: absolute;
+    bottom: calc(clamp(8px, 1vw, 16px) + 24%);
+    left: 18%;
+    width: 40%;
+    height: 26%;
+    background: #ffffff;
+    border: 2px solid #e5e5e5;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-inline: 8px;
+}
+
+.okno {
+    width: 16%;
+    aspect-ratio: 1 / 1;
+    background: #bfe7ff;
+    border: 3px solid #5a7e99;
+    border-radius: 50%;
+}
